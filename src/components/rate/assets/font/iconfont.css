@@ -1,0 +1,32 @@
+/* CSS @规则 指定自定义字体 */
+
+@font-face {
+  font-family: "element-icons";
+  src: url('iconfont.ttf?t=1686018318449') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* .iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+/* 图标内容设置 */
+.el-icon-star-on:before {
+  content: "\e610";
+}
+.el-icon-star-off:before {
+  content: "\e60f";
+}
+/* .icon-star-off:before {
+  content: "\e60f";
+}
+
+.icon-star-on:before {
+  content: "\e610";
+} */
+
